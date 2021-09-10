@@ -75,7 +75,7 @@ public class PageObjectUtil {
 				texto = we.getText();
 				sleep(1.5);
 				count++;
-			}while(!we.isDisplayed() || count==10);			
+			}while(texto.isEmpty() || count==10);			
 		}
 		return texto;
 	}

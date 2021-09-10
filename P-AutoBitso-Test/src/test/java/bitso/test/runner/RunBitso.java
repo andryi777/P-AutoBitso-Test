@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 //	@CucumberOptions(features = { "src/test/resources/features/" }, tags = { "@AddBeneficiary" }, glue = { "bitso" })
 	@CucumberOptions(features = { "src/test/resources/features/" }, tags = { "@tag" }, glue = { "bitso" })
 	
-public class RunRimac {
+public class RunBitso {
 
 }
 
