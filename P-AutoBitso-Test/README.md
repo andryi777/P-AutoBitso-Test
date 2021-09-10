@@ -2,6 +2,8 @@
 
 This is a Maven-Java Project developed with EclipseIDE
 
-For run the tests, go to 'bitso.test.runner' and then you can use any tag
+For run the tests, go to 'bitso.test.runner' an run 'RunBitso' class using any tag
 
-After finished the test, run in a 'local terminal' this command: 'mvn serenity:aggregate'
+Then when the test is finished, go to project folder and run 'mvn serenity:aggregate' this will generate a report of the tests
+
+To access to the report, go to project's folder -> 'target->site->serenity->index.html' doble click
